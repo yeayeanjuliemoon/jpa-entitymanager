@@ -1,6 +1,6 @@
-package repositories;
+package cds.repositories;
 
-import entities.Cd;
+import cds.entities.Cd;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

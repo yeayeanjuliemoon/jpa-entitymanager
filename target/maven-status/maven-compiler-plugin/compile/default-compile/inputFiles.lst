@@ -1,3 +1,10 @@
-/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/entities/Cd.java
-/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/entities/Cd_Artist.java
-/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/entities/Artist.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/repositories/Artist_CdRepository.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/services/Artist_CdService.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/entities/Artist_Cd.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/repositories/ArtistRepository.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/Main.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/entities/Artist.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/services/ArtistService.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/services/CdService.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/entities/Cd.java
+/Users/jmoon/Dev/jpa-entitymanager-yeayeanjuliemoon/src/main/java/cds/repositories/CdRepository.java

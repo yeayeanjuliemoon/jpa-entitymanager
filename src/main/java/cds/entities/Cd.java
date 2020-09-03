@@ -1,7 +1,6 @@
-package entities;
+package cds.entities;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -9,7 +8,6 @@ import javax.persistence.Table;
 @Table(name = "cd")
 public class Cd {
     @Id
-    @GeneratedValue
     private Long id;
     private String title;
     private String description;

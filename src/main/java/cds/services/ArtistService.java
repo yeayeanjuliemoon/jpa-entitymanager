@@ -1,9 +1,9 @@
-package services;
+package cds.services;
 
-import entities.Artist;
+import cds.entities.Artist;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.ArtistRepository;
+import cds.repositories.ArtistRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -26,16 +26,22 @@ public class ArtistService {
         return artistRepository.findAll();
     }
 
-    public void update() {
-
+    public void update(Artist artist) {
+        Optional<Artist> artist2 = artistRepository.findById(artist.getId());
+        if(artist2.isPresent()) {
+            artistRepository.save(artist);
+        }
     }
 
-    public void create() {
-
+    public void create(Artist artist) {
+        Optional<Artist> artist2 = artistRepository.findById(artist.getId());
+        if(!artist2.isPresent()) {
+            artistRepository.save(artist);
+        }
     }
 
-    public void delete() {
-
+    public void delete(Long id) {
+        artistRepository.deleteById(id);
     }
 
 }

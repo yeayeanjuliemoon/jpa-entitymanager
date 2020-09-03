@@ -1,4 +1,4 @@
-package entities;
+package cds.entities;
 
 import javax.persistence.*;
 
@@ -7,7 +7,6 @@ import javax.persistence.*;
 public class Artist_Cd {
 
     @Id
-    @GeneratedValue
     @Column(name = "cd_id")
     private Long cdId;
 

@@ -1,3 +1,10 @@
-entities/Artist.class
-entities/Cd.class
-entities/Cd_Artist.class
+cds/Main.class
+cds/entities/Artist.class
+cds/entities/Cd.class
+cds/services/CdService.class
+cds/repositories/Artist_CdRepository.class
+cds/repositories/CdRepository.class
+cds/repositories/ArtistRepository.class
+cds/entities/Artist_Cd.class
+cds/services/ArtistService.class
+cds/services/Artist_CdService.class
